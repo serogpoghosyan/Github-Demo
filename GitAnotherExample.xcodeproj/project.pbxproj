@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1C67CE1D1CA1B71E00919313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CE1C1CA1B71E00919313 /* main.m */; };
 		1C67CE201CA1B71E00919313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CE1F1CA1B71E00919313 /* AppDelegate.m */; };
-		1C67CE231CA1B71E00919313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CE221CA1B71E00919313 /* ViewController.m */; };
 		1C67CE261CA1B71E00919313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C67CE241CA1B71E00919313 /* Main.storyboard */; };
 		1C67CE281CA1B71E00919313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C67CE271CA1B71E00919313 /* Assets.xcassets */; };
 		1C67CE2B1CA1B71E00919313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C67CE291CA1B71E00919313 /* LaunchScreen.storyboard */; };
+		1C67CE341CA1B7A400919313 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CE331CA1B7A400919313 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		1C67CE1C1CA1B71E00919313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C67CE1E1CA1B71E00919313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C67CE1F1CA1B71E00919313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C67CE211CA1B71E00919313 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C67CE221CA1B71E00919313 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C67CE251CA1B71E00919313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C67CE271CA1B71E00919313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C67CE2A1CA1B71E00919313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C67CE2C1CA1B71E00919313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C67CE321CA1B7A400919313 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1C67CE331CA1B7A400919313 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +60,13 @@
 			children = (
 				1C67CE1E1CA1B71E00919313 /* AppDelegate.h */,
 				1C67CE1F1CA1B71E00919313 /* AppDelegate.m */,
-				1C67CE211CA1B71E00919313 /* ViewController.h */,
-				1C67CE221CA1B71E00919313 /* ViewController.m */,
 				1C67CE241CA1B71E00919313 /* Main.storyboard */,
 				1C67CE271CA1B71E00919313 /* Assets.xcassets */,
 				1C67CE291CA1B71E00919313 /* LaunchScreen.storyboard */,
 				1C67CE2C1CA1B71E00919313 /* Info.plist */,
 				1C67CE1B1CA1B71E00919313 /* Supporting Files */,
+				1C67CE321CA1B7A400919313 /* MainViewController.h */,
+				1C67CE331CA1B7A400919313 /* MainViewController.m */,
 			);
 			path = GitAnotherExample;
 			sourceTree = "<group>";
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C67CE231CA1B71E00919313 /* ViewController.m in Sources */,
 				1C67CE201CA1B71E00919313 /* AppDelegate.m in Sources */,
 				1C67CE1D1CA1B71E00919313 /* main.m in Sources */,
+				1C67CE341CA1B7A400919313 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

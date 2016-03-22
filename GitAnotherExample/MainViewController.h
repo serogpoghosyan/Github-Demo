@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  GitAnotherExample
 //
 //  Created by Seryozha Poghosyan on 3/22/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-
