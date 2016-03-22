@@ -14,5 +14,7 @@
 
 @property (nonatomic, strong) UIView *someView;
 
+@property (nonatomic, strong) UIView *anotherView;
+
 @end
 
