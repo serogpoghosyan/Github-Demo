@@ -12,9 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (nonatomic, strong) UIView *someView;
-
-@property (nonatomic, strong) UIView *anotherView;
-
 @end
 
